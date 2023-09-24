@@ -9,6 +9,9 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPriceComponent } from './components/card/card-price/card-price.component';
 import { RodapeBarComponent } from './components/rodape-bar/rodape-bar.component';
+import { CardProductModule } from './components/card-product/card-product.module';
+import { ConceptComponent } from "./pages/product/concept/concept.component";
+
 
 @NgModule({
   declarations: [
@@ -18,11 +21,13 @@ import { RodapeBarComponent } from './components/rodape-bar/rodape-bar.component
     MenuBarComponent,
     CardLabelComponent,
     CardPriceComponent,
-    RodapeBarComponent
+    RodapeBarComponent,
+		ConceptComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+		CardProductModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

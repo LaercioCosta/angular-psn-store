@@ -7,6 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
+
+	@Input()
+	id:string = '0'
 	@Input()
 	gameCover:string = ''
 	@Input()

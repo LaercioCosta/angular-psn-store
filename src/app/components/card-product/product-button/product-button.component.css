@@ -1,0 +1,36 @@
+.product-button__container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.product-button__addCart > button{
+	background-color: #d63d00;
+	height: 34px;
+	width: 340px;
+	border-radius: 999px;
+	color: white;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.product-button__addCart > button:hover{
+	background-color: #962a00;
+}
+
+.product-button__addFavorite{
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+	background-color: rgba(60, 62, 70, 0.97);
+}
+
+.product-button__addFavorite:hover {
+	background-color: rgba(83, 85, 94, 0.97);
+}

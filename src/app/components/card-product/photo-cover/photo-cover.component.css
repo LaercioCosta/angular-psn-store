@@ -1,0 +1,20 @@
+.photo-cover__container{
+	width: 100%;
+	height: 750px;
+	position: relative;
+}
+.photo-cover__container > img{
+	max-width: 100%;
+	max-height: 100%;
+	min-width: 100%;
+
+}
+
+.photo-cover__backgroud{
+	position: absolute;
+	bottom: 0px;
+	border-style: solid red 10px;
+	background-color: black;
+	width: 100%;
+	height: 300px;
+}
