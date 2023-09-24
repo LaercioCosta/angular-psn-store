@@ -1,0 +1,18 @@
+.rodape-bar__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+
+	margin-top: 20px;
+	height: 70px;
+	box-shadow:  -5px -5px 18px #0000004f;
+}
+
+.rodape-bar__title > h3 > a{
+ color: black;
+ font-weight: bolder;
+}
+.rodape-bar__title > h3 > a:hover{
+	color: rgba(0,0,155,1);
+}
